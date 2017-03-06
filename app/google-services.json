@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "853388021216",
+    "project_id": "rss-feeder-160608"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:853388021216:android:811ae925de82e25a",
+        "android_client_info": {
+          "package_name": "com.example.vittal.rssfeeder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "853388021216-p72ra16t3ser61psm9uuguc18idaiu63.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "853388021216-mboh887qko0gv8tvdo5h3mht1bn6ftcl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vittal.rssfeeder",
+            "certificate_hash": "8ae5dd93e86797c69add7bc341aa1caadea541af"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqdWYlxr0oU70XEsfphIVlSbaeZ-s7SQY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.vittal.rssfeeder.AddNewSiteActivity">
+
+    <TextView android:id="@+id/lblUrl"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter URL (http://abc.com)"
+        android:textColor="#0B0080"
+        android:padding="10dp"
+        android:textStyle="bold"/>
+
+    <EditText android:id="@+id/txtUrl"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@id/lblUrl"
+        android:inputType="textUri"
+        android:hint="Enter website url"/>
+
+    <Button android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtUrl"
+        android:text="Submit"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"/>
+
+    <Button android:id="@+id/btnCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/btnSubmit"
+        android:layout_below="@id/txtUrl"
+        android:text="Cancel"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:windowSoftInputMode="stateVisible|adjustPan"/>
+
+    <TextView android:id="@+id/lblMessage"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ff0000"
+        android:padding="10dip"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/btnSubmit"/>
+
+</RelativeLayout>
